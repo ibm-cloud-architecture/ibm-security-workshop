@@ -5,9 +5,8 @@
 
 All of the lab walkthroughs and documentation can be hosted locally.
 
-Host the documents by running the following commands in the repository:
+Host the documents by running the startDocs.sh script in the repository:
 ```
-mkdocs build
-
-mkdocs serve
+chmod +x startDocs.sh
+./startDocs.sh
 ```
