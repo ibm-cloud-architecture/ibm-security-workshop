@@ -4,7 +4,7 @@
    - Login
    - Allow notifications and join the channel according to the list below
    ![join-slack](join-slack.png)
-2) Create the certificate or use the ones in the certs folder
+2) Create the certificate (optional)
    - Open a new Terminal window
    - go to any folder
    - run the following commands
@@ -14,10 +14,25 @@
     openssl req -x509 -newkey rsa:2048 -subj "/CN=localhost" -keyout myCert.key -out myCert.pem -days 30 -nodes
 
 2) Open a new tab and navigate to cloud.ibm.com 
-   - Create a new instance of CertMgr (https://cloud.ibm.com/catalog/services/certificate-manager)
-   - Configure the Slack notification channel (https://cloud.ibm.com/docs/services/certificate-manager?topic=certificate-manager-configuring-notifications#adding-channel)
-   - Import the cert and wait 1 min to get the notification (https://cloud.ibm.com/docs/services/certificate-manager?topic=certificate-manager-managing-certificates-from-the-dashboard#importing-a-certificate)
-
+   - Create a new instance of CertMgr [(docs)](https://cloud.ibm.com/catalog/services/certificate-manager)
+     1) Give a meaningful name
+     2) Click the create button
+     ![create instance](create-instance.png)
+   - Configure the Slack notification channel [(docs)](https://cloud.ibm.com/docs/services/certificate-manager?topic=certificate-manager-configuring-notifications#adding-channel)
+     1) In the navigation on the service details page, click Settings.
+     1) Open the Notifications tab.
+     1) Click **Add Notification Channel**.
+     1) Choose **Slack**  as the type of the notification channel.
+     1) Enter the Webhook matching to your ID.
+     1) Click **Save**. A summary of your configuration is displayed.
+     ![add-channel](add-channel.png)
+   - Import the certificate you created at the previous step (or use the ones under `certs` folder).(https://cloud.ibm.com/docs/services/certificate-manager?topic=certificate-manager-managing-certificates-from-the-dashboard#importing-a-certificate)
+     1) Click **Import Certificate**.
+     1) Provide a certificate name.
+     1) Select the certificate file in PEM format by clicking **Browse** and finding the certificate files.
+     1) Optional: Select the certificate's private key in PEM format by clicking Browse.
+     1) Optional: Enter a description.
+     1) Click **Import**.
 
 ## Slack Channel and webhook:
 | ID  | Channel Name            | Webhook   |
