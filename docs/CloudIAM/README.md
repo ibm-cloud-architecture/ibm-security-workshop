@@ -34,6 +34,21 @@ Now that we established that you are an administrator for the access group and t
 
 ## Add an Authorization to a service in your resource group
 
-We will now add a service authorization to access KeyProtect Service 
+We will now add a service authorization that authorizes Object Storage to access the KeyProtect Service. This access is required to support customer managed encryption of storage buckets.
 
-Blocked...
+At the end of this step, the list of authorizations will include an authorization similar to the one listed in the image below ![autorizations-screen](autorizations-screen.png)
+
+To add the authorization, perform the following steps:
+
+- Transition to the "Access (IAM)" UI using the Manage->Access (IAM) menu item
+- Select the Autorizations side menu and click the "Create" button
+- Enter the following details into the access policy:
+    - Source service - "Cloud Object Storage"
+    - Source service instance - the COS instance in your resource group
+    - Target service - Key Protect 
+    - Target service instance - the Key Protect instance in your resource group
+    - Reader role
+![autorizations-cos-kps](autorizations-cos-kps.png)
+- Click "Authorize" 
+
+You have just added an authorization from Object Storage to Key Protect. 
