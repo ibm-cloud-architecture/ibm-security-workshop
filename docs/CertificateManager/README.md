@@ -22,19 +22,19 @@
 ## Slack Channel and webhook:
 | ID  | Channel Name            | Webhook   |
 | --- | ----------------------- | --------- |
-| 1   | certmgr-notifications1  | something |
-| 2   | certmgr-notifications2  | something |
-| 3   | certmgr-notifications3  | something |
-| 4   | certmgr-notifications4  | something |
-| 5   | certmgr-notifications5  | something |
-| 6   | certmgr-notifications6  | something |
-| 7   | certmgr-notifications7  | something |
-| 8   | certmgr-notifications8  | something |
-| 9   | certmgr-notifications9  | something |
-| 10  | certmgr-notifications10 | something |
-| 11  | certmgr-notifications11 | something |
-| 12  | certmgr-notifications12 | something |
-| 13  | certmgr-notifications13 | something |
-| 14  | certmgr-notifications14 | something |
-| 15  | certmgr-notifications51 | something |
+| 1   | crtmgr-notification1  | https://hooks.slack.com/services/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 |
+| 2   | crtmgr-notification2  | https://hooks.slack.com/services/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 |
+| 3   | crtmgr-notification3  | https://hooks.slack.com/services/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 |
+| 4   | crtmgr-notification4  | something |
+| 5   | crtmgr-notification5  | something |
+| 6   | crtmgr-notification6  | something |
+| 7   | crtmgr-notification7  | something |
+| 8   | crtmgr-notification8  | something |
+| 9   | crtmgr-notification9  | something |
+| 10  | crtmgr-notification10 | something |
+| 11  | crtmgr-notification11 | something |
+| 12  | crtmgr-notification12 | something |
+| 13  | crtmgr-notification13 | something |
+| 14  | crtmgr-notification14 | something |
+| 15  | crtmgr-notification15 | something |
 
