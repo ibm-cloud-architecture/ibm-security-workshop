@@ -102,7 +102,7 @@ Sometimes, you may have sensitive data on your cluster. This may be at applicati
 
 At cluster level, all the configuration data will be stored in the etcd component which in turn will be saved on local disk of kubernetes master.
 
-At application level, all the confidential information such as usr names, passwords etc. are stored as Kubernetes secrets.
+At application level, all the confidential information such as user names, passwords etc. are stored as Kubernetes secrets.
 
 Inorder to protect the etcd data on the local disk of your kubernetes master and also the kubernetes secrets, you can enable IBM Key Protect encryption.
 
