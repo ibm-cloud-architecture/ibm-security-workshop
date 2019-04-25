@@ -95,3 +95,17 @@ Here, let us get the issue id of the vulnerability for the location service whic
 11. Once you create the exemption, go back to your issue. Since we added the exemption, it shows **OK to Deploy**.
 
 ![oktodeployVAexemption](oktodeployVAexemption.png)
+
+## Protecting Sensitive information
+
+Sometimes, you may have sensitive data on your cluster. This may be at application level or cluster level.
+
+At cluster level, all the configuration data will be stored in the etcd component which in turn will be saved on local disk of kubernetes master.
+
+At application level, all the confidential information such as usr names, passwords etc. are stored as Kubernetes secrets.
+
+Inorder to protect the etcd data on the local disk of your kubernetes master and also the kubernetes secrets, you can enable IBM Key Protect encryption.
+
+![keyProtectEncryption](keyProtectEncryption.png)
+
+![EnableSecretEncryption](EnableSecretEncryption.png)
