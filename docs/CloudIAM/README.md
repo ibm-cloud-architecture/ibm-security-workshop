@@ -4,7 +4,7 @@ To accomplish this lab you will work in teams of two in the IBM Cloud Account de
 
 ## Log into IBM Cloud and review your permissions 
 
-- Start by logging into IBM Cloud. Open <https://cloud.ibm.com/> in the browser and log in     using your IBMid credentials, Than select the workshop account
+- Start by logging into IBM Cloud. Open <https://cloud.ibm.com/> in the browser and log in     using your IBMid credentials, then select the workshop account.
 - Use the Manage menu bar and select the Account option to transition to the account UI as seen in  the following image ![manage-acount-menu](manage-acount-menu.png)
 - Click on the "Resource Groups" sidebar item and look at the list of your resource groups
   ![account-resource-groups](account-resource-groups.png)
