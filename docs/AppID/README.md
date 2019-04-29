@@ -42,6 +42,8 @@ The Cloud Directory Configuration tab allows you to customize **settings**, **pa
 - Go to **Cloud Directory -> Settings**. 
 ![Settings](CDSettings.png)
 
+- We aren't going to change anything here, but as you can see you can switch the sign in, sign up, and account modification settings.
+
 #### Password Policies (Advanced Password Graduated Tier Only)
 
 - Go to **Cloud Directory -> Password Policies**. 
@@ -50,7 +52,7 @@ The Cloud Directory Configuration tab allows you to customize **settings**, **pa
 #### Workflow Templates
 
 - Go to **Cloud Directory -> Workflow Templates**. 
-![Settings](CDSettings.png)
+![Workflow](Workflow.png)
 
 #### Multi-Factor Authentication (Graduated Tier Only)
 
@@ -93,4 +95,4 @@ To get there click on the **Users** tab.
 
 ![LoginCustomization](LoginCustomization.png)
 
-## Changing Identity Providers (Optional)
+
