@@ -111,3 +111,7 @@ Inorder to protect the etcd data on the local disk of your kubernetes master and
 ![EnableSecretEncryption](EnableSecretEncryption.png)
 
 Below are some other security features. We are not walking through them today in this lab, but you can give them a try if you are interested.
+
+- [Image Signing - Docker Notary](/ImageSigning.md)
+- [Image Security deployment enforcement controls](/ImgSecurityEnforcement.md)
+- [Network Security](/NetworkSecurity.md)
