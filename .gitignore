@@ -3,3 +3,5 @@ kstreams/target/
 kstreams/bin/
 /.vscode
 kstreams/.settings/
+docs/.DS_Store
+.DS_Store
