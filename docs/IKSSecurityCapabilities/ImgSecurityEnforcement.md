@@ -141,7 +141,7 @@ To get the description, run
 
 `kubectl describe imagepolicy ibmcloud-image-policy -n kube-system`
 
-![describeKubeImagePolicy](getKubeImagePolicy.png)
+![describeKubeImagePolicy](describeKubeImagePolicy.png)
 
 3. To get the IBM system policy, run
 
@@ -180,7 +180,7 @@ Once it gets edited, the changes will apply.
 
 Here, previously our cluster image policy allows to use the images from any repository where as now we restricted it to only use the images from `docker.io`. In this way, you can define your own policies based on the requirements.
 
-3. If you want to create a complete ClusterImagePolicy, create a kubernetes custom resource definition like below.
+3. If you want to create a complete new ClusterImagePolicy, create a kubernetes custom resource definition like below.
 
 ```
 apiVersion: securityenforcement.admission.cloud.ibm.com/v1beta1
