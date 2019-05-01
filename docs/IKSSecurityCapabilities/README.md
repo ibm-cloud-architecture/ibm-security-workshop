@@ -16,7 +16,7 @@ IBM Cloud Container Registry helps you to store your docker images. These images
 
 ![AccessCluster](AccessCluster.png)
 
-3. If you click on the **Access** tab, it will give you the instructions to access the cluster in your command line. You can give it try if you are interested.
+3. If you click on the **Access** tab, it will give you the instructions to access the cluster in your command line. You can give it a try if you are interested.
 
 ![IKSCluster](IKSCluster.png)
 
@@ -92,7 +92,7 @@ Here, let us get the issue id of the vulnerability for the location service whic
 
 ![createExemptionVA](createExemptionVA.png)
 
-11. Once you create the exemption, go back to your issue. Since we added the exemption, it shows **OK to Deploy**.
+11. Once you create the exemption, go back to your issue. Since we added the exemption, and there are no more issues it shows **OK to Deploy**.
 
 ![oktodeployVAexemption](oktodeployVAexemption.png)
 
