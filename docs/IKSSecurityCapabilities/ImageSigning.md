@@ -66,30 +66,30 @@ For federated id, use `ibmcloud login --sso`
 
  **1. Adding signer to trust store**
 
-      - Generate a key pair and load it.
+   - Generate a key pair and load it.
 
-      `docker trust key generate <NAME>`
+   `docker trust key generate <NAME>`
 
-      ![keyGen](keyGen.png)
+   ![keyGen](keyGen.png)
 
-      Here, a public key (.pub) is generated, and the corresponding private key is automatically loaded into the Docker trust configuration.
+   Here, a public key (.pub) is generated, and the corresponding private key is automatically loaded into the Docker trust configuration.
 
-      - Add the signer's key to the repository.
+   - Add the signer's key to the repository.
 
-      `docker trust signer add --key <NAME>.pub <NAME> <repository>`
+   `docker trust signer add --key <NAME>.pub <NAME> <repository>`
 
-      ![signersKey](signersKey.png)
+   ![signersKey](signersKey.png)
 
-      - The signer must sign an image. Enter the passphrase for the private key when prompted.
+   - The signer must sign an image. Enter the passphrase for the private key when prompted.
 
-      `docker trust sign <repository>:<tag>`
+   `docker trust sign <repository>:<tag>`
 
-      ![signRepo](signRepo.png)
+   ![signRepo](signRepo.png)
 
  **2. Removing the signer**
 
-       - To remove the signer, run the below command.
+   - To remove the signer, run the below command.
 
-       `docker trust signer remove <NAME> <repository>`
+   `docker trust signer remove <NAME> <repository>`
 
-       ![removeTrust](removeTrust.png)
+   ![removeTrust](removeTrust.png)
