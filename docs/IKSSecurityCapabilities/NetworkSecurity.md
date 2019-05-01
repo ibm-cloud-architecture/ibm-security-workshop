@@ -55,7 +55,7 @@ sudo mv /Users/<user>/.bluemix/plugins/container-service/clusters/<cluster_name>
 ```
 2. Download the Calico CLI [here](https://github.com/projectcalico/calicoctl/releases).
 
-**Note**: If you are using OS X, download the -darwin-amd64 version. If you are using Windows, install the Calico CLI in the same directory as the IBM Cloud CLI. This setup saves you some file path changes when you run commands later. Make sure to save the file as `calicoctl.exe`.
+**Note**: If you are using OS X, download the darwin-amd64 version. If you are using Windows, install the Calico CLI in the same directory as the IBM Cloud CLI. This setup saves you some file path changes when you run commands later. Make sure to save the file as `calicoctl.exe`.
 
 3. Move the executable file to the /usr/local/bin directory.
 
