@@ -20,7 +20,7 @@ To accomplish this lab you will work in teams of two in the IBM Cloud Account de
 
 Now that we established that you are an administrator for the access group and the services in it, lets make the following experiments
 
-## Add a user as a Viewer to the access group and the services in it
+## Add a user as a Viewer to the resource group and the services in it
 
 - Transition to the "Access (IAM)" UI using the Manage->Access (IAM) menu item
 - Look at the list of users by clicking the "Users" sidebar  you should see something similar to the below image ![users-list](users-list.png)
