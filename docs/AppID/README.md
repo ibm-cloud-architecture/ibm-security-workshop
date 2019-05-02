@@ -1,5 +1,4 @@
 # App ID Lab
-
 In this lab, we will be covering how to use IBM App ID service to customize your application running on Kubernetes.
 
 ## Cloud Directory Configuration
@@ -16,17 +15,11 @@ In the Cloud Directory Configuration tab we are going to customize the **Welcome
 
 > Hello %{user.displayName}, Welcome to our site!
 
-- Then **Replace** the message area with:
-
-```
-
-```
-
 ## User Management
 
 The user management section allows you to **Add and Delete Users**. 
 
-To get there click on the **Users** tab.
+- To get there click on the **Users** tab.
 
 ![Users-Page](UsersPage.png)
 
