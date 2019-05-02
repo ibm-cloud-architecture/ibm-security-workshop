@@ -13,7 +13,9 @@ In the Cloud Directory Configuration tab we are going to customize the **Welcome
 
 - Next, **Replace** the subject line with the following:
 
-> Hello %{user.displayName}, Welcome to our site!
+``` 
+Hello %{user.displayName}, Welcome to our site! 
+```
 
 ## User Management
 
