@@ -1,69 +1,26 @@
 # App ID Lab
 
-In this lab, we will be covering how to enable IBM App ID service for your application running in Kubernetes on IBM Cloud.
-
-## Log into IBM Cloud
-
-- Start by logging into IBM Cloud. Open <https://cloud.ibm.com/> in the browser and log in using your IBMid credentials.
-- Select the account in which your kubernetes cluster is running by using the dropdown menu in the upper right-hand corner.
-![select-account-dropdown](select-account-dropdown.png)
-
-
-## Creating an App ID Service
-
-Once logged into IBM Cloud, you will see your account's dashboard. This dashboard gives you an overview of everything associated with your account. Now lets walk through created a new App ID service.
-
-- Find the **Create Resource** button at the top right of the dashboard and click it.
-
-![Create-Resource](Create-Resource.png)
-
-- In the search bar at the top of the screen, type in **App ID** and there should be an App ID tile that looks like the following:
-
-![App-ID-Tile](App-ID-Tile.png)
-
-- Select that tile and the service dashboard will load. From this screen you can choose the service's region, resource group, and pricing plan. You can also create a unique name for your service. 
-
-![AppID-Menu](AppID-Menu.png)
-
-- After configuring the settings for the service, click the **Create** button at the bottom of the screen.  This will provision the new service and return you the services dashboard.
-
-![Create-Button](createButton.png)
-
-- That's it. Your new App ID service was created.
-## Enabling your Application
-
+In this lab, we will be covering how to use IBM App ID service to customize your application running on Kubernetes.
 
 ## Cloud Directory Configuration
 
-The Cloud Directory Configuration tab allows you to customize **settings**, **password policies**, and **workflow templates**.  It also allows you to enable **multi-factor authentication** and **single sign-on**.
+In the Cloud Directory Configuration tab we are going to customize the **Welcome Email** your users will recieve when they sign up for your website.
 
-#### Settings
+#### Welcome Templates
 
-- Go to **Cloud Directory -> Settings**. 
-![Settings](CDSettings.png)
+- Go to **Cloud Directory -> Workflow Templates -> Welcome Email**. 
 
-- We aren't going to change anything here, but as you can see you can switch the sign in, sign up, and account modification settings.
+![WelcomeEmail](WelcomeEmail.png)
 
-#### Password Policies (Advanced Password Graduated Tier Only)
+- Next, **Replace** the subject line with the following:
 
-- Go to **Cloud Directory -> Password Policies**. 
-![PasswordPolicies](PasswordPolicies.png)
+> Hello %{user.displayName}, Welcome to our site!
 
-#### Workflow Templates
+- Then **Replace** the message area with:
 
-- Go to **Cloud Directory -> Workflow Templates**. 
-![Workflow](Workflow.png)
+```
 
-#### Multi-Factor Authentication (Graduated Tier Only)
-
-- Go to **Cloud Directory -> Multi-Factor Authentication**. 
-![Multi-Factor](Multi-Factor.png)
-
-#### Single Sign-On (Graduated Tier Only)
-
-- Go to **Cloud Directory -> Single Sign-On**. 
-![SingleSign-On](SingleSign-On.png)
-
+```
 
 ## User Management
 
@@ -75,19 +32,13 @@ To get there click on the **Users** tab.
 
 #### Adding a User  
 
-- Click on **Add User** tab. 
+- Let's add a User. Start by clicking on **Add User** tab. 
+
+- **Fill out the form** with example user information and click **Save**.
 
 ![AddMenu](AddMenu.png)
 
-- Fill out the form that pops up and click **Save**.
-
-#### Deleting a User  
-
-- Select the checkbox next to the user you would like to delete.
-
-![DeleteMenu](DeleteMenu.png)
-
-- Click the **Delete** button that appears.
+- Now you can use that user information to sign in to your application.
 
 ## Login Customization
 
@@ -95,4 +46,12 @@ To get there click on the **Users** tab.
 
 ![LoginCustomization](LoginCustomization.png)
 
+- We are going to first change the logo. Download an example logo by clicking <a href="SampleLogo.png" download>Download Logo</a>.
 
+- Next click on **Select File** and select the downloaded logo.
+
+![SelectFile](SelectFile.png)
+
+- Finally pick a **Header Color** of your choice and change the **Tab Name** and **Footer** to any text of your choice. Click **Save Changes**
+
+![EditedLogin](EditedLogin.png)

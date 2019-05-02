@@ -2,8 +2,8 @@ site_name: IBM Lab Securities Workshop
 repo_url: https://github.ibm.com/moh-workshop/moh-workshop
 nav:
   - Home: index.md
-  - AppID Lab: AppID/README.md
   - CloudIAM Lab: CloudIAM/README.md
+  - AppID Lab: AppID/README.md
   - IKS Security Capabilities Lab: IKSSecurityCapabilities/README.md
   - Key Protect: KeyProtect/README.md
   - Security Advisor: SecurityAdvisor/README.md
