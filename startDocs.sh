@@ -1,5 +1,5 @@
 #Installs the needed theme
-pip3 install mkdocs-material
+pip install mkdocs-material
 
 #Builds the documents packagae
 mkdocs build
