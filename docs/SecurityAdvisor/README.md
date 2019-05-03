@@ -109,10 +109,10 @@ Vulnerability Advisor provides security management for IBM Cloud Container Regis
 
 ### Create Private registry, namespace and import image.
 
-1.	Follow the steps in this link - https://cloud.ibm.com/kubernetes/registry/main/start to setup your private registry and namespace. 
+1.	Follow the steps in this link - [https://cloud.ibm.com/kubernetes/registry/main/start](https://cloud.ibm.com/kubernetes/registry/main/start) to setup your private registry and namespace. 
 
 ```
-You dont need to do this step if there is already a vulnerable image in your registry. Ensure that the region is set correctly before you create the registry and namespace. Follow instructions here https://cloud.ibm.com/docs/services/Registry?topic=registry-registry_setup_cli_namespace 
+You dont need to do this step if there is already a vulnerable image in your registry. Ensure that the region is set correctly before you create the registry and namespace. Follow instructions here [https://cloud.ibm.com/docs/services/Registry?topic=registry-registry_setup_cli_namespace](https://cloud.ibm.com/docs/services/Registry?topic=registry-registry_setup_cli_namespace) 
 ``` 
 2.	Get an image with vulnerabilities. For example,
 
@@ -175,7 +175,10 @@ Ensure that you have an IBM Cloud Activity Tracker instance in your us-south reg
 - Define the card to display custom findings
 
 # References
-•	IBM Cloud Security Advisor - https://cloud.ibm.com/docs/services/security-advisor?topic=security-advisor-index#index  
-•	IBM Cloud Activity Tracker with LogDNA - https://cloud.ibm.com/docs/services/Activity-Tracker-with-LogDNA?topic=logdnaat-getting-started#getting-started  
-•	IBM Kubernetes Service - https://cloud.ibm.com/docs/containers?topic=containers-container_index#container_index   
-•	IBM Kubernetes Service  Solution tutorials - https://cloud.ibm.com/docs/tutorials?topic=solution-tutorials-scalable-webapp-kubernetes#scalable-webapp-kubernetes  
+•	IBM Cloud Security Advisor - [https://cloud.ibm.com/docs/services/security-advisor?topic=security-advisor-index#index ](https://cloud.ibm.com/docs/services/security-advisor?topic=security-advisor-index#index)   
+
+•	IBM Cloud Activity Tracker with LogDNA - [https://cloud.ibm.com/docs/services/Activity-Tracker-with-LogDNA?topic=logdnaat-getting-started#getting-started  ](https://cloud.ibm.com/docs/services/Activity-Tracker-with-LogDNA?topic=logdnaat-getting-started#getting-started  )  
+
+•	IBM Kubernetes Service - [https://cloud.ibm.com/docs/containers?topic=containers-container_index#container_index](https://cloud.ibm.com/docs/containers?topic=containers-container_index#container_index)   
+
+•	IBM Kubernetes Service  Solution tutorials - [https://cloud.ibm.com/docs/tutorials?topic=solution-tutorials-scalable-webapp-kubernetes#scalable-webapp-kubernetes](https://cloud.ibm.com/docs/tutorials?topic=solution-tutorials-scalable-webapp-kubernetes#scalable-webapp-kubernetes)  
