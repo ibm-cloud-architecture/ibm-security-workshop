@@ -6,7 +6,8 @@ In this hands-on lab, you will learn how to gain visibility to your resources de
 
 - You will learn how to use security advisor dashboard to understand your security posture and do drill downs.
 - You will learn about pre-integrated findings in Security Advisor
-- You will view a demo of Network Insights(Beta)\* \* You will view a demo of Partner Integration through wizard (Twistlock)
+- You will view a demo of Network Insights
+- You will view a demo of Partner Integration through wizard (Twistlock)
 - Understand Security Advisor Findings API and create a custom card in Security Advisor.
 
 ## What you need
@@ -69,7 +70,9 @@ To get started, create a new Certificate Manager service instance by completing 
 2.	Give your service instance a name, or use the pre-set name.
 3.	Click Create. ( More details here - https://cloud.ibm.com/docs/services/certificate-manager?topic=certificate-manager-getting-started#getting-started) 
 
-```Ensure that you select the right **region** and **resource** group```
+```
+Ensure that you select the right region  and resource group
+```
 
 Create and Import Certificate
 
@@ -80,7 +83,9 @@ Create and Import Certificate
 2.	Two files will be created  - key1.pem, visibilitylab.example.service.pem
 3.	To import your organization's certificates into Certificate Manager, click Import Certificate.
 
-```If you are not able to create the certificate on your machine,please check with the instructor from where to download the certificate```
+```
+If you are not able to create the certificate on your machine,please check with the instructor from where to download the certificate
+```
 
 ## View alerts on Security Advisor Dashboard
 
@@ -98,4 +103,79 @@ Create and Import Certificate
 
 ![CertDetails](CertificateDetails.png)
 
+## Vulnerability Advisor Findings
 
+Vulnerability Advisor provides security management for IBM Cloud Container Registry, generating a security status report that includes suggested fixes and best practices.
+
+### Create Private registry, namespace and import image.
+
+1.	Follow the steps in this link - https://cloud.ibm.com/kubernetes/registry/main/start to setup your private registry and namespace. 
+
+```
+You dont need to do this step if there is already a vulnerable image in your registry. Ensure that the region is set correctly before you create the registry and namespace. Follow instructions here https://cloud.ibm.com/docs/services/Registry?topic=registry-registry_setup_cli_namespace 
+``` 
+2.	Get an image with vulnerabilities. For example,
+
+`docker pull docker pull appsecco/dsvw` 
+
+3.	Tag the image with vulnerabilities. For example,
+
+`docker tag appsecco/dsvw uk.icr.io/<namespace> /appsecco:dsvw` 
+
+4.	Push the image to private registry and namespace. For example,
+
+`docker push uk.icr.io/<namespace>/appsecco:dsvw`
+
+### Observe vulnerability Advisor findings
+
+1.	Go to Security Advisor Dashboard following steps in **Task 1 : Access Security Advisor Dashboard.** 
+2.	Refresh the dashboard 
+3.	Observe that a Key Risk Indicator appears on the Vulnerability Advisor card
+
+![VACard](VACard.png)
+
+
+4.	Click on View all Findings.  The findings list is shown.
+
+ ![VAFinding](VAFinding.png)
+
+5.	Click on the finding and view the details.
+
+  ![VAFindingDetails](VAFindingDetails.png)
+
+6.	Go to Vulnerability Advisor to see the details of the issues and corrective actions.
+
+![VAImageDetails](VAImageDetails.png)
+
+ 
+
+# Task 3 : Security Advisor Network Insights – Demo
+
+* Setup Network Insights
+* View Network Insights Cards on Dashboard 
+
+# Task 4 : Security Advisor Activity Insights – Demo
+
+* Pre-requisite for Activity Insights 
+Ensure that you have an IBM Cloud Activity Tracker instance in your us-south region
+
+* Setup Activity Insights 
+* View Activity Insights Cards on Dashboard
+
+
+# Task 5 : Partner Integration Demo  
+
+(Twistlock)
+
+# Task 6 : Integrate your own security tool with Security Advisor
+
+- Pre-requisites
+- Register a new finding type
+- Post a custom finding
+- Define the card to display custom findings
+
+# References
+•	IBM Cloud Security Advisor - https://cloud.ibm.com/docs/services/security-advisor?topic=security-advisor-index#index  
+•	IBM Cloud Activity Tracker with LogDNA - https://cloud.ibm.com/docs/services/Activity-Tracker-with-LogDNA?topic=logdnaat-getting-started#getting-started  
+•	IBM Kubernetes Service - https://cloud.ibm.com/docs/containers?topic=containers-container_index#container_index   
+•	IBM Kubernetes Service  Solution tutorials - https://cloud.ibm.com/docs/tutorials?topic=solution-tutorials-scalable-webapp-kubernetes#scalable-webapp-kubernetes  
