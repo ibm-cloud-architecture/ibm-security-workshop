@@ -7,6 +7,7 @@ nav:
   - IKS Security Capabilities Lab: IKSSecurityCapabilities/README.md
   - Key Protect: KeyProtect/README.md
   - Security Advisor: SecurityAdvisor/README.md
+  - Activity Tracker: ActivityTracker/README.md
   - Certificate Manager: CertificateManager/README.md
 theme: 
   name: material
