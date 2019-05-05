@@ -1,6 +1,18 @@
 # App ID Lab
 In this lab, we will be covering how to use IBM App ID service to customize your application running on Kubernetes.
 
+## Accessing AppID Service
+
+- Login to your IBM Cloud account and navigate to your account's **Services**.
+
+![ServicesPage](ServicesPage.png)
+
+- Next find your **AppID instance**.  It will have the following name convention **Team0(Your Team Number)RG-appid** 
+
+![AppIDTeam](AppIDTeam.png)
+
+- Click on your team's service and you will open the **AppID Overview Dashboard**.
+
 ## Cloud Directory Configuration
 
 In the Cloud Directory Configuration tab we are going to customize the **Welcome Email** your users will recieve when they sign up for your website.

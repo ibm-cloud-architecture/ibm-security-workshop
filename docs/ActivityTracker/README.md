@@ -23,7 +23,7 @@ Google Chrome or Firefox browser is recommended
 1.  Activity Tracker and  AT events
 2.  Activity Tracker with LogDNA
 
-# Activty Tracker
+# Activity Tracker
 
 ## Task 1 Create Activity Tracker Instance
 
