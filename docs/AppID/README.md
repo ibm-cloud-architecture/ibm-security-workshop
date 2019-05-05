@@ -7,7 +7,7 @@ In this lab, we will be covering how to use IBM App ID service to customize your
 
 ![ServicesPage](ServicesPage.png)
 
-- Next find your **AppID instance**.  It will have the following name convention **Team0(Your Team Number)RG-appid** 
+- Next find your **AppID instance**.  It will have the following name convention **TeamXXXRG-appid** 
 
 ![AppIDTeam](AppIDTeam.png)
 

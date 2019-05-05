@@ -1,12 +1,6 @@
 # Key Protect Lab
 In this lab you will be enabling the Key Protect service with Cloud Object Storage.
 
-## Log into IBM Cloud
-
-- Start by logging into IBM Cloud. Open <https://cloud.ibm.com/> in the browser and log in using your IBMid credentials.
-- Select the account in which your Kubernetes cluster is running by using the dropdown menu in the upper right-hand corner.
-![select-account-dropdown](select-account-dropdown.png)
-
 ## Create New Key Protect Key
 
 From the Dashboard, select ‘View resources’

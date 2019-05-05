@@ -1,7 +1,5 @@
 # Activity Tracker Lab
 
-# Introduction to the Lab
-
 In this hands-on lab, you will learn how to gain visibility to your resources deployed on cloud. 
 
 You will work with Activity Tracker and Activity Tracker with LogDNA to view cloud audit events. 

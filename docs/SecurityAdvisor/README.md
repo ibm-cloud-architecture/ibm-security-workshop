@@ -1,7 +1,5 @@
 # Security Advisor Lab
 
-# Introduction to the Lab
-
 In this hands-on lab, you will learn how to gain visibility to your resources deployed on cloud.
 
 - You will learn how to use security advisor dashboard to understand your security posture and do drill downs.
