@@ -34,7 +34,7 @@ Fill out the following settings:
 Then, click ‘Create bucket’
 ![create-bucket-2](create-bucket-2.png)
 
-Then, upload all of your images
+Then, upload all of your images (from https://github.com/ibm-cloud-architecture/ibm-security-workshop/tree/master/docs/KeyProtect/location-images)
 ![upload-images](upload-images.png)
 
 Check that your application instance is able to retrieve the images. https://app.teamXXXrg-cluster.eu-de.containers.appdomain.cloud - where XXX is your team number.
