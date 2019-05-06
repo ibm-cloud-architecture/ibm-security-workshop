@@ -1,6 +1,6 @@
 # IBM Cloud Securities Workshop Labs
 
-This project is part of the overall IBM Cloud Securities Workshop [here.](https://github.ibm.com/moh-workshop/moh-workshop)
+This project is part of the overall IBM Cloud Securities Workshop [here.](https://github.com/ibm-cloud-architecture/ibm-security-workshop)
 
 Here are the individual lab modules:
 
