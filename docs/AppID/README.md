@@ -47,6 +47,12 @@ The user management section allows you to **Add and Delete Users**.
 
 - Now you can use that user information to sign in to your application.
 
+- Go to the application by **Replacing the X** with your team number. (Ex. https://app.team001rg-cluster.eu-de.containers.appdomain.cloud)
+
+```
+ https://app.teamXXXrg-cluster.eu-de.containers.appdomain.cloud
+```
+
 ## Login Customization
 
 - Click on the **Login Customization** tab. 
@@ -62,3 +68,9 @@ The user management section allows you to **Add and Delete Users**.
 - Finally pick a **Header Color** of your choice and change the **Tab Name** and **Footer** to any text of your choice. Click **Save Changes**
 
 ![EditedLogin](EditedLogin.png)
+
+- View your work. **Replace the X** with your team number. (Ex. https://app.team001rg-cluster.eu-de.containers.appdomain.cloud)
+
+```
+ https://app.teamXXXrg-cluster.eu-de.containers.appdomain.cloud
+```
