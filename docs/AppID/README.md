@@ -23,7 +23,7 @@ In the Cloud Directory Configuration tab we are going to customize the **Welcome
 
 ![WelcomeEmail](WelcomeEmail.png)
 
-- Next, **Replace** the subject line with the following:
+- Next, **Replace** the *Subject line* with the following:
 
 ``` 
 Hello %{user.displayName}, Welcome to our site! 
