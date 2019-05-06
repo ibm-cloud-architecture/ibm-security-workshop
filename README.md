@@ -1,12 +1,8 @@
-# moh-workshop
+# IBM Security Workshop Labs
 
 
 ## Lab Documentation
 
-All of the lab walkthroughs and documentation can be hosted locally.
+All of the labs are being hosted by github. They can be accessed through the following link:
 
-Host the documents by running the startDocs.sh script in the repository:
-```
-chmod +x startDocs.sh
-./startDocs.sh
-```
+[Lab Documentation](https://ibm-cloud-architecture.github.io/ibm-security-workshop/)
