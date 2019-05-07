@@ -106,12 +106,11 @@ The IBM Cloud Activity Tracker service records user-initiated activities that ch
 
 ![AT-LogDNA-2](AT-LogDNA-2.png)
 
-5.	Click on View LogDNA to get to the Dashboard
+5.	Perform any certificate manager instance activities (like list, import, delete of certificates)
+6.	Click on View LogDNA to get to the Dashboard
+7.	See **cloudcerts** audit events
 
 ![AT-LogDNA-3](AT-LogDNA-3.png)
-6.	Select All Apps and click on at-sender.log
-7.	Filter to see **cloudcerts** audit events
-
 
 # References
 

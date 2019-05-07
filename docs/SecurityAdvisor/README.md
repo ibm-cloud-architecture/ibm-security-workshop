@@ -24,14 +24,14 @@ Google Chrome or Firefox browser is recommended
    i.	Create a certificate expiring shortly and import it into Cert Mgr Instance  
    ii.	Deep dive into the Vulnerability Advisor Finding  
    iii.	Observe the KRI notification on Sec Advisor Dashboard
-3.	Network Insights  
+3.	Network Insightts  
    i.	Inbound threats  
    ii.	Outbound threats  
    iii.	Network Behaviour Analytics
 4.	Activity Insights  
    i.	Access Insights  
    ii.	Rules
-5.	Partner Integration  
+5.	Parnter Integration  
    i.	Twistlock (Wizard demo / overview)
 6. Custom Integration  
    i.	Discuss Security Advisor APIs  
@@ -39,24 +39,23 @@ Google Chrome or Firefox browser is recommended
 
 # Task 1 : Access Security Advisor Dashboard
 
-Security Advisor provides the dashboard to view the security posture of your cloud workloads.  With Security Advisor you can:
-
+Security Advisor provides the dashboard to view the security posture of your cloud workloads.  With Security Advisor you can
 1.	Access and manage security posture for your cloud workloads from one central dashboard
 2.	Discover and monitor security issues and vulnerabilities
 3.	Detect suspicious network activity and suspicious access to your IBM Cloud resources
 
 ## By using the tile:
-1.	Log in to IBM Cloud
-2.	Navigate to the **Catalog** and click **Security and Identity**.
-3.	Select the **Security Advisor** tile. A dashboard opens where you can view security information for the preconfigured integrated tools such as vulnerability advisor and certificate manager.
+1.	Log in to IBM Cloud 
+2.	Navigate to the Catalog and click Security and Identity.
+3.	Select the Security Advisor tile. A dashboard opens where you can view security information for the preconfigured integrated tools such as vulnerability advisor and certificate manager.
 
 ## By using the menu
 1.	Log in to IBM Cloud 
-2.	From your dashboard, click the **hamburger menu** to expand your options
-3.	Click **Security**. An overview of the security dashboard opens.
-4.	Click **Getting Started** in the navigation to see general overview information about the service, or click **Dashboard** if you prefer to learn by seeing the service in action.
+2.	From your dashboard, click the hamburger menu to expand your options
+3.	Click Security. An overview of the security dashboard opens.
+4.	Click Getting Started in the navigation to see general overview information about the service, or click Dashboard if you prefer to learn by seeing the service in action.
 
-Detailed Instructions: [here.](https://cloud.ibm.com/docs/services/security-advisor?topic=security-advisor-getting-started) 
+Detailed Instructions here - https://cloud.ibm.com/docs/services/security-advisor?topic=security-advisor-getting-started
 
 # Task 2 :  Security Advisor Pre-integrated Findings
 
@@ -83,7 +82,10 @@ Create and Import Certificate
 3.	To import your organization's certificates into Certificate Manager, click Import Certificate.
 
 ```
-If you are not able to create the certificate on your machine,please check with the instructor from where to download the certificate
+If you are not able to create the certificate on your machine,please use the certificate and private key provided here - 
+[https://github.ibm.com/moh-workshop/moh-workshop/blob/master/docs/SecurityAdvisor/visibilitylab.example.service.pem](https://github.ibm.com/moh-workshop/moh-workshop/blob/master/docs/SecurityAdvisor/visibilitylab.example.service.pem)
+[https://github.ibm.com/moh-workshop/moh-workshop/blob/master/docs/SecurityAdvisor/key.pem](https://github.ibm.com/moh-workshop/moh-workshop/blob/master/docs/SecurityAdvisor/key.pem)
+
 ```
 
 ## View alerts on Security Advisor Dashboard
@@ -92,7 +94,7 @@ If you are not able to create the certificate on your machine,please check with 
 2.	Refresh the dashboard after 1 min. Observe that a Key Risk Indicator appears on the certificate manager card.
 ![certmgr](CertMgr.png)
 
-3.	Click on **View all Findings**.  The findings list is shown.
+3.	Click on View all Findings.  The findings list is shown.
 ![FindingsList](FindingsList.png)
 
 4.	Click on the finding and view the details.
