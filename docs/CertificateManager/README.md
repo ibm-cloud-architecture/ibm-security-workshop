@@ -32,11 +32,11 @@
     5. Optional: Enter a description.
     6. Click **Import**.
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| ID        | Channel Name          | Webhook  |
+| ------------- |:-------------:| :-----|
+| 1 | crtmgr-notification1 | https://hooks.slack.com/services/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 |
+| 2 | crtmgr-notification2      |   https://hooks.slack.com/services/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 |
+| 3 | crtmgr-notification3      |    https://hooks.slack.com/services/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 |
 
 
 
