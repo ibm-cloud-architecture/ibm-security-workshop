@@ -1,5 +1,5 @@
 # Certificate Manager Lab
-## 1. Create the Slack workspace
+## 1. Join the Slack workspace
     
   - Follow this link and join the `IBM_CertMgr` Slack workspace: ``` https://join.slack.com/t/ibmcertmgr/shared_invite/enQtNjE3OTg1MjUzNDYyLWI4ZDUyYzEwYThmYjVhMjY3MDJmZDA3OTNmZmY1ZTlkMmEzNWJiYTNjYTRhNTg1ZDM4MzUwODMzNjdmNzk1N2Y ```
   - **Login** and **verify your account** through the email you provided.
